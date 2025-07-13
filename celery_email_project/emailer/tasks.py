@@ -6,7 +6,7 @@ def send_email_task(email, subject, message):
     send_mail(
         subject,
         message,
-        None,  # From email (будет DEFAULT_FROM_EMAIL)
+        "noreply@yourdomain.com",  # FROM email
         [email],
         fail_silently=False,
     )
