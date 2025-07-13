@@ -1,0 +1,3 @@
+venv/
+celery_email_project/celery_email_project/__pycache__
+celery_email_project/emailer/__pycache__
