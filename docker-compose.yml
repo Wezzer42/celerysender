@@ -2,7 +2,6 @@ services:
   web:
     build: 
       context: ./celery_email_project
-      dockerfile: dockerfile
     container_name: django
     command: gunicorn celery_email_project.wsgi:application --bind 0.0.0.0:8000
     volumes:
@@ -17,7 +16,6 @@ services:
   celery:
     build:
       context: ./celery_email_project
-      dockerfile: dockerfile
     container_name: celery
     command: celery -A celery_email_project worker -l info
     volumes:

@@ -1,7 +1,9 @@
+from unittest.mock import patch
+
 from django.test import TestCase
 from django.urls import reverse
 from rest_framework import status
-from unittest.mock import patch
+
 
 class SendEmailAPITestCase(TestCase):
     def setUp(self):

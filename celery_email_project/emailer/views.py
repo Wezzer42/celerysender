@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from .forms import EmailForm
 from .tasks import send_email_task
 
