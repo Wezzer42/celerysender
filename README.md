@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Python](https://img.shields.io/badge/Python-3.12.3-blue)
 ![Django](https://img.shields.io/badge/Django-5.x-green)
 ![Vue](https://img.shields.io/badge/Vue-3.x-brightgreen)
 ![Docker](https://img.shields.io/badge/Docker-Compose-blue)
