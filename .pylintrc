@@ -4,4 +4,5 @@ disable=
     missing-class-docstring,
     missing-function-docstring,
     too-few-public-methods,
-    line-too-long
+    line-too-long,
+    import-outside-toplevel
