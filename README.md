@@ -1,5 +1,10 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Django](https://img.shields.io/badge/Django-5.x-green)
+![Vue](https://img.shields.io/badge/Vue-3.x-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-Compose-blue)
 # Celery Email Sender
 Celery Email Sender is a full-featured Django + Celery + Vue application for sending emails via API, fully containerized with Docker and styled with Tailwind CSS.
+<img width="295" height="519" alt="image" src="https://github.com/user-attachments/assets/7851f6d3-64c1-465a-8a55-fdc8ecfdbb8b" />
 
 ## Tech Stack
 Python 3.12.3
